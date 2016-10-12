@@ -39,7 +39,7 @@ function FindItem(items, match) {
 ```
 
 ##### O(N^2)
-O(N^2) represents an algorithm whose execution time is directly proportional to the square of the size of the input size. You will see this time complexity most often in algorithms that have nested iterations over the data set. The deeper you nest iterations, the higher the Big O Notation: O(N^3), O(N^4), etc.
+O(N^2) represents an algorithm whose execution time is directly proportional to the square of the size of the input data. You will see this time complexity most often in algorithms that have nested iterations over the data set. The deeper you nest iterations, the higher the Big O Notation: O(N^3), O(N^4), etc.
 
 ```
 function printSums(items) {
@@ -53,7 +53,7 @@ function printSums(items) {
 ```
 
 ##### O(logN)
-O(logN) representes an algorithm that follow a procedure similar to finding a name in an alphabetically list of names by starting at the middle of the list. If the name is not on the middle of the list, you move to the upper or lower half based on the alphabet, pick the middle element in that half and repeat the procedure until you find the name. This type of search algorithm is known as binary search.
+O(logN) represents an algorithm that follow a procedure similar to finding a name in an alphabetically ordered list of names by starting at the middle of the list. If the name is not on the middle of the list, you move to the upper or lower half based on the alphabet, pick the middle element in that half and repeat the procedure until you find the name. This type of search algorithm is known as binary search.
 
 ```
 function FindItemBinarySearch(items, match) {
